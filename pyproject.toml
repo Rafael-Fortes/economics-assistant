@@ -1,0 +1,17 @@
+[tool.poetry]
+package-mode = false
+name = "economics-assistant"
+version = "0.1.0"
+description = "LLMs dealing with economics."
+authors = ["Rafael Fortes <rafaeldsfortes@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+crewai = "^0.98.0"
+docling = "^2.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
